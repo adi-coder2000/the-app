@@ -1,7 +1,7 @@
 export default function Form(){
     return(
-        <div className="">
-            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-96 h-full">
+        <div className="m-auto">
+            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[30rem] h-full">
                 <div className="mb-4">
                     <label className="block text-gray-700 text-sm font-bold mb-2">
                     Name:

@@ -12,3 +12,7 @@ export const LINKEDIN_HEADER = <FaLinkedin size="1.5rem"/>
 export const INSTRAGRAM_HEADER = <FaInstagram size="1.5rem"/>
 export const LEETCODE_HEADER = <SiLeetcode size="1.5rem"/>
 export const GITHUB_HEADER = <FaGithub size="1.5rem"/>
+
+//ContactForm Icons
+export const LINKEDIN_CFI = <FaLinkedin size="6rem"/>
+export const INSTRAGRAM_CFI = <FaInstagram size="6rem"/>

@@ -7,7 +7,7 @@ export default function Contact(){
     return(
         <div>
             <Header/>
-            <div className="container flex justify-around mx-auto max-w-screen-lg h-full my-28">
+            <div className="container flex flex-wrap  mx-auto max-w-screen-lg h-full my-28">
                 <ContactIconsBox/>
                 <Form/>
             </div>

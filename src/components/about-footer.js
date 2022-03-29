@@ -5,9 +5,8 @@ export default function AboutFooter(){
         <>
         <div className="container mx-auto max-w-screen-lg h-full">
         <hr/>
-            <div className="flex flex-row justify-around">          
+            <div className="flex flex-wrap justify-around">          
                 <AboutFooterTile/>  
-                <AboutFooterTile/>
                 <AboutFooterTile/>
                 <AboutFooterTile/>
             </div>
