@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { GITHUB_URL, INSTAGRAM_URL, LEETCODE_URL, LINKEDIN_URL } from "../constants/external_urls";
+import { GITHUB_HEADER, INSTRAGRAM_HEADER, LEETCODE_HEADER, LINKEDIN_HEADER } from "../constants/icons";
 import * as ROUTES from "../constants/routes";
 export default function Header() {
     return(
@@ -22,29 +24,21 @@ export default function Header() {
                     </div>
                     <div className="text-gray-700 text-center flex items-center align-items" >
                         {/* //LinkedIN */}
-                        <Link className="mx-3 text-xl" to={ROUTES.WORK} aria-label="Dashboard">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                            </svg>
-                        </Link>
+                        <a className="mx-3 text-xl" href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" aria-label="LinkedIN Profile Link">
+                            {LINKEDIN_HEADER}
+                        </a>
                         {/* //LeetCode */}
-                        <Link className="mx-3 text-xl" to={ROUTES.WORK} aria-label="Dashboard">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                            </svg>
-                        </Link>
-                        {/* //Codeforce */}
-                        <Link className="mx-3 text-xl" to={ROUTES.WORK} aria-label="Dashboard">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                            </svg>
-                        </Link>
+                        <a className="mx-3 text-xl" href={LEETCODE_URL} target="_blank" rel="noopener noreferrer" aria-label="LeetCode Pofile Link">
+                            {LEETCODE_HEADER}
+                        </a>
+                        {/* //GITHUB */}
+                        <a className="mx-3 text-xl" href={GITHUB_URL} target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile Link">
+                            {GITHUB_HEADER}
+                        </a>
                         {/* //GitHub */}
-                        <Link className="mx-3 text-xl" to={ROUTES.WORK} aria-label="Dashboard">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                            </svg>
-                        </Link>
+                        <a className="mx-3 text-xl" href={INSTAGRAM_URL}  target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile Link">
+                            {INSTRAGRAM_HEADER}
+                        </a>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.width-restrict{
+    @apply container flex  mx-auto max-w-screen-lg h-full
+}
