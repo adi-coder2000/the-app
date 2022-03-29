@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import * as ROUTES from "../constants/routes";
 export default function Header() {
     return(
-        <header className="h-10 m-12 px-20">
+        <header className="h-10 m-20 px-20">
             <div className="container mx-auto max-w-screen-lg h-full">
                 <div className="flex justify-between items-center text-xl h-full">
                     <div>
