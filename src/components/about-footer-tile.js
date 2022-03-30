@@ -1,7 +1,7 @@
 import {FaCode} from "react-icons/fa";
 export default function AboutFooterTile(){
     return (
-        <div className="flex bg-white shadow-md rounded px-8 pt-6 pb-8 m-4 h-auto w-auto">
+        <div className="card-effect flex m-4">
             <div  className="text-2xl">
                 <FaCode size="4rem"/>
             </div>

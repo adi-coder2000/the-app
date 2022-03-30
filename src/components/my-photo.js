@@ -1,8 +1,8 @@
 export default function MyPhoto(){
     return (
         <>
-        <div className="h-auto w-auto flex m-auto p-auto">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1024px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"/>
+        <div className="w-auto h-auto mx-auto mb-0">
+            <img src="https://sunrift.com/wp-content/uploads/2014/12/Blake-profile-photo-square.jpg"/>
         </div>
         </>
     );

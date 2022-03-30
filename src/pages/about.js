@@ -12,41 +12,19 @@ export default function About(){
         <>  
             <Header/>
 
-            <div className="container flex justify-aroud mx-auto max-w-screen-lg h-full">
-
-                <div className="mx-4">
-                <MyPhoto/>
-                </div>
-                
-                <div className="flex flex-col">
-                    <AboutMe/>
-                    <div className="flex flex-wrap">
-                        
-                        <div className="flex flex-row">
-                            <SkillTile title={SKILLS_DATA[0].title} description={SKILLS_DATA[0].description} icon={REACTJS_SKILL}/> 
-                            <SkillTile title={SKILLS_DATA[1].title} description={SKILLS_DATA[1].description} icon={FLUTTER_SKILL}/> 
-                        </div>
-                        <div className="flex flex-row">
-                            <SkillTile title={SKILLS_DATA[2].title} description={SKILLS_DATA[2].description} icon={NODEJS_SKILL}/> 
-                            <SkillTile title={SKILLS_DATA[4].title} description={SKILLS_DATA[4].description} icon={LINUX_SKILL}/> 
-                        </div>
-                        <div className="flex flex-row">
-                            <SkillTile title={SKILLS_DATA[10].title} description={SKILLS_DATA[10].description} icon={PYTHON_SKILL}/> 
-                        </div>
-                        </div>
-                    {/* 
-
-                    <div className="flex flex-row">
-                        <SkillTile/>
-                        <SkillTile/>
+            <div className="width-restrict flex">
+                <div className="width-restrict">
+                    <div className="flex justify-around flex-wrap mb-8">
+                        <MyPhoto/>
+                        <AboutMe/>
                     </div>
-
-                    <div className="flex flex-row">
-                        <SkillTile/>
-                        <SkillTile/>
-                    </div>                   */}
-                </div>
                 
+                    <div className="flex flex-wrap">
+                        <SkillTile title={SKILLS_DATA[0].title} description={SKILLS_DATA[0].description} icon={REACTJS_SKILL}/> 
+                        <SkillTile title={SKILLS_DATA[1].title} description={SKILLS_DATA[1].description} icon={FLUTTER_SKILL}/> 
+                        <SkillTile title={SKILLS_DATA[10].title} description={SKILLS_DATA[10].description} icon={PYTHON_SKILL}/>
+                    </div>
+                </div>
             </div>
             
             <AboutFooter/>

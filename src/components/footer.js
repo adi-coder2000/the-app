@@ -4,7 +4,7 @@ import { GITHUB_HEADER, INSTRAGRAM_HEADER, LEETCODE_HEADER, LINKEDIN_HEADER } fr
 export default function Footer() {
     return(
         <header className="h-10 m-12 px-20">
-            <div className="container mx-auto max-w-screen-lg h-full">
+            <div className="width-restrict">
                 <div className="flex justify-items: start items-center text-xl h-full">
                     <div className="text-gray-700 text-center flex items-center align-items" >
                         {/* //LinkedIN */}

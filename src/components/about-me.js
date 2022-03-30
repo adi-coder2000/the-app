@@ -1,6 +1,6 @@
 export default function AboutMe(){
     return(
-        <div className="flex flex-col bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 h-auto w-auto" >
+        <div className="flex flex-col justify-center card-effect h-auto w-auto mx-auto mt-0" >
             <h2 className="text-2xl">
                 I am Rigorous.
             </h2>

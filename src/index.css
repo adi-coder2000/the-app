@@ -5,7 +5,11 @@
 
 
 .width-restrict{
-    @apply container flex  mx-auto max-w-screen-lg h-full
+    @apply container mx-auto max-w-screen-lg h-full
+}
+
+.card-effect{
+  @apply bg-white shadow-md rounded px-8 pt-6 pb-8 h-auto w-auto
 }
 
 /* Hover Effect CSS */
