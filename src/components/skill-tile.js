@@ -1,7 +1,7 @@
 import { REACTJS_SKILL } from "../constants/icons";
 export default function SkillTile(props){
     return (
-        <div className="card-effect">
+        <div className="card-effect flex">
             <div  className="text-2xl">
                 {props.icon}
             </div>

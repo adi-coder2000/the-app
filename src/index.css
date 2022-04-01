@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+.active-nav-links{
+  @apply active:underline underline-offset-8 text-red-900
+}
 
 .width-restrict{
     @apply container mx-auto max-w-screen-lg h-full
