@@ -7,11 +7,11 @@ export default function Contact(){
     return(
         <div>
             <Header/>
-            {/* <div className="flex flex-wrap width-restrict my-28">
+            <div className="flex flex-wrap width-restrict my-28">
                 <ContactIconsBox/>
                 <Form/>
             </div>
-            <Footer/> */}
+            <Footer/>
         </div>      
     );
 }
